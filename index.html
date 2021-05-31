@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Practise</title>
+</head>
+
+<body>
+    <header>
+        <h1>JS Practise</h1>
+        <h3>Please fill the form to add to the table :</h3>
+    </header>
+    <main>
+        <div >
+            <form id="myForm">
+                <fieldset>
+                    <legend>New Employee :</legend>
+                    <label for="fname">First Name :</label><br />
+                    <input type="text" name="fname" id="fname" title="first name" class="formData" required><br />
+                    <!--  -->
+                    <label for="lname">Last Name :</label><br />
+                    <input type="text" name="lname" id="lname" title="last name" class="formData" required><br />
+                    <!--  -->
+                    <label for="age">Age :</label><br />
+                    <input type="text" name="age" id="age" title="age" class="formData" required><br />
+                    <!--  -->
+                    <label for="department">Department :</label>
+                    <select name="department" id="department" class="formData" required>
+                        <option value="-select-">-select-</option>
+                        <option value="administration">administration</option>
+                        <option value="financial">financial</option>
+                        <option value="Manufacturing">Manufacturing</option>
+                        <option value="Maintenance">Maintenance</option>
+                    </select><br />
+                    <!--  -->
+                    <label for="salary">Salary :</label><br />
+                    <input type="text" name="salary" id="salary" title="salary" class="formData" required><br />
+                    <!--  -->
+                    <label for="phoneNumber">Phone Number :</label><br />
+                    <input type="text" name="phoneNumber" id="phoneNumber" title="phone number" class="formData"
+                        required><br />
+                    <!--  -->
+                    <input type="submit" name="submit" id="submit">
+                </fieldset>
+            </form>
+        </div>
+        <!-- ............................... -->
+        <div id="tableContainer"></div>
+    </main>
+    <script src="/app.js"></script>
+</body>
+
+</html>

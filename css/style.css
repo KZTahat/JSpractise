@@ -1,0 +1,18 @@
+
+body{font-family: Verdana, sans-serif;}
+
+header h1{font-size: xx-large;padding: 30px;color:blueviolet;text-align: center;}
+header h3{font-size: larger;padding: 10px;color: chartreuse;}
+
+main div{display: inline-block;}
+legend{margin: 10px;color: forestgreen;}
+label{font-size: 15px;padding-left: 20px;}
+input{width: 350px;height: 20px;border: none;border-bottom: 1px solid gray;margin: 5px 0px;
+    caret-color: chartreuse;margin-left: 20px;}
+input:last-child{background-color: violet;cursor: pointer;}
+select{margin: 5px 0px 5px 20px; width: 150px;height: 25px;border: none;border-bottom: 1px solid gray;}
+
+table{color: crimson;border:1px solid blueviolet;border-radius: 3px;margin-left: 230px;margin-top: 30px;}
+table tr td{color: blue;text-align: center;padding: 5px;border:1px solid black;}
+table tr td:hover{border: 1px dotted brown;color: cyan;}
+table tr th:hover{border: 1px dotted coral;color: darkorchid;}
